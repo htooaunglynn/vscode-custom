@@ -50,7 +50,7 @@
 
 /* File explorer action buttons */
 .monaco-workbench .part.sidebar .title-actions .actions-container {
-    display: none;
+    display: flex;
 }
 
 /* File Explorer Item Label */

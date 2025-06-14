@@ -1,0 +1,192 @@
+{
+    "diffEditor.ignoreTrimWhitespace": false,
+    "diffEditor.renderSideBySide": false,
+    "window.newWindowDimensions": "inherit",
+    "window.nativeFullScreen": true,
+    "window.commandCenter": false,
+    "window.customTitleBarVisibility": "never",
+    "files.trimTrailingWhitespace": true,
+    "files.insertFinalNewline": true,
+    "files.trimFinalNewlines": true,
+    "files.autoSave": "onFocusChange",
+    "terminal.integrated.fontFamily": "Fira Code",
+    "terminal.integrated.fontLigatures.enabled": true,
+    "terminal.integrated.fontWeight": "bold",
+    "terminal.integrated.smoothScrolling": true,
+    "editor.scrollbar.verticalScrollbarSize": 6,
+    "editor.smoothScrolling": true,
+    "editor.linkedEditing": true,
+    "editor.formatOnSave": true,
+    "editor.wordWrap": "on",
+    "editor.guides.bracketPairs": "active",
+    "editor.renderWhitespace": "all",
+    "editor.guides.highlightActiveIndentation": "always",
+    "editor.cursorSmoothCaretAnimation": "on",
+    "editor.copyWithSyntaxHighlighting": false,
+    "editor.emptySelectionClipboard": false,
+    "editor.multiCursorModifier": "ctrlCmd",
+    "editor.snippetSuggestions": "top",
+    "editor.minimap.enabled": false,
+    "editor.lineNumbers": "on",
+    "editor.guides.indentation": false,
+    "editor.detectIndentation": false,
+    "editor.fontFamily": "FiraCode-Retina, JetBrains Mono, Fira Code",
+    "editor.fontSize": 16,
+    "editor.codeLensFontFamily": "FiraCode-Retina, JetBrains Mono, Fira Code",
+    "editor.inlayHints.fontFamily": "FiraCode-Retina, JetBrains Mono, Fira Code",
+    "editor.fontLigatures": true,
+    "editor.fontWeight": "900",
+    "editor.minimap.autohide": true,
+    "editor.lineHeight": 2,
+    "editor.hover.delay": 1500,
+    "editor.hover.enabled": true,
+    "editor.matchBrackets": "never",
+    "editor.colorDecorators": false,
+    "editor.lightbulb.enabled": "off",
+    "editor.selectionHighlight": false,
+    "editor.renderControlCharacters": false,
+    "editor.hideCursorInOverviewRuler": true,
+    "editor.gotoLocation.multipleReferences": "goto",
+    "editor.gotoLocation.multipleDefinitions": "goto",
+    "editor.gotoLocation.multipleDeclarations": "goto",
+    "editor.overviewRulerBorder": false,
+    "editor.renderLineHighlight": "none",
+    "editor.occurrencesHighlight": "off",
+    "editor.gotoLocation.multipleImplementations": "goto",
+    "editor.gotoLocation.multipleTypeDefinitions": "goto",
+    "editor.stickyScroll.enabled": false,
+    "explorer.compactFolders": false,
+    "editor.cursorBlinking": "expand",
+    "editor.cursorStyle": "line-thin",
+    "workbench.activityBar.location": "hidden",
+    "workbench.tips.enabled": false,
+    "workbench.sideBar.location": "right",
+    "workbench.startupEditor": "none",
+    "workbench.editor.enablePreviewFromQuickOpen": false,
+    "workbench.editor.limit.enabled": true,
+    "workbench.editor.limit.perEditorGroup": true,
+    "workbench.layoutControl.enabled": false,
+    "workbench.settings.applyToAllProfiles": [],
+    "workbench.editor.limit.value": 1,
+    "workbench.editor.enablePreview": false,
+    "workbench.editor.showTabs": "none",
+    "workbench.colorTheme": "Monokai Classic",
+    "workbench.list.smoothScrolling": true,
+    "workbench.editor.empty.hint": "hidden",
+    "workbench.tree.indent": 20,
+    "workbench.iconTheme": "material-icon-theme",
+    "workbench.editorAssociations": {
+        "*.dacpac": "default"
+    },
+    "zenMode.centerLayout": false,
+    "zenMode.hideLineNumbers": false,
+    "zenMode.silentNotifications": false,
+    "zenMode.showTabs": "single",
+    "git.autofetch": true,
+    "git.decorations.enabled": false,
+    "gitlens.defaultDateShortFormat": "",
+    "github.copilot.nextEditSuggestions.enabled": false,
+    "github.copilot.enable": {
+        "*": false,
+        "plaintext": false,
+        "markdown": false,
+        "scminput": false
+    },
+    "extensions.confirmedUriHandlerExtensionIds": [
+        "ms-dotnettools.dotnet-interactive-vscode",
+        "ms-dotnettools.vscode-dotnet-pack"
+    ],
+    "settingsSync.ignoredExtensions": [
+        "n0us.all-gray",
+        "eamodio.gitlens",
+        "streetsidesoftware.code-spell-checker",
+        "skyran.js-jsx-snippets",
+        "rapidapi.vscode-services",
+        "ricardo-emerson.create-react-tsx-component",
+        "github.vscode-pull-request-github"
+    ],
+    "[html]": {
+        "editor.defaultFormatter": "vscode.html-language-features"
+    },
+    "[typescript]": {
+        "editor.defaultFormatter": "vscode.typescript-language-features"
+    },
+    "[css]": {
+        "editor.defaultFormatter": "vscode.css-language-features"
+    },
+    "[javascript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[jsonc]": {
+        "editor.defaultFormatter": "vscode.json-language-features"
+    },
+    "breadcrumbs.enabled": false,
+    "problems.decorations.enabled": false,
+    "scm.diffDecorations": "none",
+    "debug.inlineValues": "on",
+    "notebook.lineNumbers": "on",
+    "errorLens.selectProblemType": "closestSeverity",
+    "phpserver.phpPath": "/opt/homebrew/opt/php@8.2/bin/php",
+    "better-comments.tags": [
+        {
+            "tag": "!",
+            "color": "#FF7601",
+            "strikethrough": false,
+            "underline": false,
+            "backgroundColor": "transparent",
+            "bold": true,
+            "italic": false
+        },
+        {
+            "tag": "%",
+            "color": "#F3A26D",
+            "strikethrough": false,
+            "underline": false,
+            "backgroundColor": "transparent",
+            "bold": false,
+            "italic": false
+        },
+        {
+            "tag": "?",
+            "color": "#3498DB",
+            "strikethrough": false,
+            "underline": false,
+            "backgroundColor": "transparent",
+            "bold": false,
+            "italic": false
+        },
+        {
+            "tag": "//",
+            "color": "#474747",
+            "strikethrough": true,
+            "underline": false,
+            "backgroundColor": "transparent",
+            "bold": false,
+            "italic": false
+        },
+        {
+            "tag": "todo",
+            "color": "#FF8C00",
+            "strikethrough": false,
+            "underline": false,
+            "backgroundColor": "transparent",
+            "bold": false,
+            "italic": false
+        },
+        {
+            "tag": "*",
+            "color": "#98C379",
+            "strikethrough": false,
+            "underline": false,
+            "backgroundColor": "transparent",
+            "bold": false,
+            "italic": false
+        }
+    ],
+    "liveServer.settings.CustomBrowser": "chrome:PrivateMode",
+    "liveServer.settings.AdvanceCustomBrowserCmdLine": "chrome --incognito",
+    "custom-ui-style.external.imports": [
+        "file:///{filelocation}/custom-vscode.css",
+        "file:///{filelocation}/vscode-script.js"
+    ]
+}

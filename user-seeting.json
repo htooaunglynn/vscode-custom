@@ -1,18 +1,21 @@
 {
+
     "diffEditor.ignoreTrimWhitespace": false,
-    "diffEditor.renderSideBySide": false,
+
     "window.newWindowDimensions": "inherit",
     "window.nativeFullScreen": true,
     "window.commandCenter": false,
-    "window.customTitleBarVisibility": "never",
+
     "files.trimTrailingWhitespace": true,
     "files.insertFinalNewline": true,
     "files.trimFinalNewlines": true,
     "files.autoSave": "onFocusChange",
-    "terminal.integrated.fontFamily": "Fira Code",
+
+    "terminal.integrated.fontFamily": "JetBrains Mono",
     "terminal.integrated.fontLigatures.enabled": true,
-    "terminal.integrated.fontWeight": "bold",
+    "terminal.integrated.fontWeight": "normal",
     "terminal.integrated.smoothScrolling": true,
+
     "editor.scrollbar.verticalScrollbarSize": 6,
     "editor.smoothScrolling": true,
     "editor.linkedEditing": true,
@@ -40,10 +43,9 @@
     "editor.lineHeight": 2,
     "editor.hover.delay": 1500,
     "editor.hover.enabled": true,
-    "editor.matchBrackets": "never",
-    "editor.colorDecorators": false,
+    "editor.colorDecorators": true,
     "editor.lightbulb.enabled": "off",
-    "editor.selectionHighlight": false,
+    "editor.selectionHighlight": true,
     "editor.renderControlCharacters": false,
     "editor.hideCursorInOverviewRuler": true,
     "editor.gotoLocation.multipleReferences": "goto",
@@ -56,8 +58,10 @@
     "editor.gotoLocation.multipleTypeDefinitions": "goto",
     "editor.stickyScroll.enabled": false,
     "explorer.compactFolders": false,
+    "explorer.decorations.badges": true,
     "editor.cursorBlinking": "expand",
     "editor.cursorStyle": "line-thin",
+
     "workbench.activityBar.location": "hidden",
     "workbench.tips.enabled": false,
     "workbench.sideBar.location": "right",
@@ -70,7 +74,7 @@
     "workbench.editor.limit.value": 1,
     "workbench.editor.enablePreview": false,
     "workbench.editor.showTabs": "none",
-    "workbench.colorTheme": "Monokai Classic",
+    "workbench.colorTheme": "Cursor Dark",
     "workbench.list.smoothScrolling": true,
     "workbench.editor.empty.hint": "hidden",
     "workbench.tree.indent": 20,
@@ -78,13 +82,18 @@
     "workbench.editorAssociations": {
         "*.dacpac": "default"
     },
+
     "zenMode.centerLayout": false,
     "zenMode.hideLineNumbers": false,
     "zenMode.silentNotifications": false,
     "zenMode.showTabs": "single",
+
     "git.autofetch": true,
-    "git.decorations.enabled": false,
+    "git.enabled": true,
+    "git.decorations.enabled": true,
+
     "gitlens.defaultDateShortFormat": "",
+
     "github.copilot.nextEditSuggestions.enabled": false,
     "github.copilot.enable": {
         "*": false,
@@ -92,10 +101,12 @@
         "markdown": false,
         "scminput": false
     },
+
     "extensions.confirmedUriHandlerExtensionIds": [
         "ms-dotnettools.dotnet-interactive-vscode",
         "ms-dotnettools.vscode-dotnet-pack"
     ],
+
     "settingsSync.ignoredExtensions": [
         "n0us.all-gray",
         "eamodio.gitlens",
@@ -105,6 +116,7 @@
         "ricardo-emerson.create-react-tsx-component",
         "github.vscode-pull-request-github"
     ],
+
     "[html]": {
         "editor.defaultFormatter": "vscode.html-language-features"
     },
@@ -120,6 +132,7 @@
     "[jsonc]": {
         "editor.defaultFormatter": "vscode.json-language-features"
     },
+
     "breadcrumbs.enabled": false,
     "problems.decorations.enabled": false,
     "scm.diffDecorations": "none",
@@ -127,6 +140,7 @@
     "notebook.lineNumbers": "on",
     "errorLens.selectProblemType": "closestSeverity",
     "phpserver.phpPath": "/opt/homebrew/opt/php@8.2/bin/php",
+
     "better-comments.tags": [
         {
             "tag": "!",
@@ -186,7 +200,8 @@
     "liveServer.settings.CustomBrowser": "chrome:PrivateMode",
     "liveServer.settings.AdvanceCustomBrowserCmdLine": "chrome --incognito",
     "custom-ui-style.external.imports": [
-        "file:///{filelocation}/custom-vscode.css",
-        "file:///{filelocation}/vscode-script.js"
-    ]
+        "file:///Users/htooaunglynn/GitHub/vscode-custom/custom-vscode.css",
+        "file:///Users/htooaunglynn/GitHub/vscode-custom/vscode-script.js"
+    ],
+    "explorer.decorations.colors": true
 }

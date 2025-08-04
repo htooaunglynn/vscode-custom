@@ -27,7 +27,7 @@ return (new PhpCsFixer\Config())
 
         'binary_operator_spaces' => [
             'operators' => [
-                // '=>' => 'align',
+                '=>' => 'align',
                 // '=' => 'align'
             ]
         ],
@@ -37,7 +37,7 @@ return (new PhpCsFixer\Config())
             'allow_single_line_closure' => true,
         ],
         // 'cast_spaces' => true,
-        // 'class_definition' => array('singleLine' => true),
+        'class_definition' => ['singleLine' => true],
         'concat_space' => ['spacing' => 'one'],
         'declare_equal_normalize' => true,
         'function_typehint_space' => true,
@@ -70,7 +70,7 @@ return (new PhpCsFixer\Config())
         // 'no_singleline_whitespace_before_semicolons' => true,
         'no_spaces_around_offset' => true,
         // 'no_trailing_comma_in_list_call' => true,
-        // 'no_trailing_comma_in_singleline_array' => true,
+        'no_trailing_comma_in_singleline_array' => true,
         // 'no_unneeded_control_parentheses' => true,
         'no_unused_imports' => true,
         'no_whitespace_before_comma_in_array' => true,
@@ -78,7 +78,7 @@ return (new PhpCsFixer\Config())
         // 'normalize_index_brace' => true,
         'object_operator_without_whitespace' => true,
         // 'php_unit_fqcn_annotation' => true,
-        // 'phpdoc_align' => true,
+        'phpdoc_align' => true,
         // 'phpdoc_annotation_without_dot' => true,
         // 'phpdoc_indent' => true,
         // 'phpdoc_inline_tag' => true,
@@ -105,7 +105,7 @@ return (new PhpCsFixer\Config())
         // 'space_after_semicolon' => true,
         // 'standardize_not_equals' => true,
         'ternary_operator_spaces' => true,
-        // 'trailing_comma_in_multiline' => ['elements' => ['arrays']],
+        'trailing_comma_in_multiline' => ['elements' => ['arrays']],
         'trim_array_spaces' => true,
         'unary_operator_spaces' => true,
         'whitespace_after_comma_in_array' => true,
